@@ -62,11 +62,8 @@ while True:
             print("\nEnter the hash for ultra Decode: ")
             hash = input("$ ")
 
-            print("\nEnter the limit: ")
-            limit = int(input("$ "))
-
             print()
-            decode(text, limit)
+            decode(text, 9999999)
 
             print("\nTry again?")
             print("[1] - Yes")
