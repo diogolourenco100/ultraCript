@@ -1,5 +1,43 @@
-This is a base64 bulk encryptor/decryptor. Made to encode a word or phrase several times, in a specific number provided by the user.
+# Ultra Cripter
+## Run Locally  
 
-It can also be used to crack base64 hashes using the decryptor, where there is no need to know how many times the hash has been encrypted.
+Clone the project  
 
-Be careful when executing the code on values above 100 in the coding option, there may be locks and crashes in the system.
+```bash  
+git clone https://github.com/diogolourenco100/ultraCript
+```
+
+Go to the project directory  
+
+```bash  
+cd ultraCript
+```
+
+Install dependencies  
+
+```bash  
+pip install -r requirements.txt
+```
+
+# Start the script
+
+Linux
+```bash  
+python3 ultraCript.py
+```
+Windows
+```bash
+py ultraCript.py
+```
+
+# How to use
+### 1 - Encode
+- Choose option 1 to encode the sentence
+- Enter the sentence to encode
+- Choose the encoding value
+
+### 2 - Decode
+- Choose option 2 to decode the sentence
+- Enter the sentence
+
+## ⚠️ *NUMBERS ABOVE 70 MAY OVERLOAD THE DEVICE'S RAM MEMORY, MAY CAUSE IT TO BLOCK OR EVEN DAMAGE THE HARDWARE*
